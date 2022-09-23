@@ -17,7 +17,8 @@ public class Factorial {
     factval = fact(n);
 
     System.out.println("Factorial of "+n+" is "+factval);
-
+    scan.close();
+    
   }
 
 }

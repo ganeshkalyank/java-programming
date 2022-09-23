@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Time {
   int hrs,mins,secs;
   Time() {hrs=mins=secs=0;}

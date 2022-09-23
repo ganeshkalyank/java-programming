@@ -14,6 +14,7 @@ public class Average {
     z = scan.nextInt();
     avg = (x+y+z)/3.0f;
     System.out.println("Average: "+avg);
+    scan.close();
   }
 
 }

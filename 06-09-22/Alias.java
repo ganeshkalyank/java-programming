@@ -9,6 +9,7 @@ class Circle {
     System.out.println("Enter radius: ");
     Scanner scan = new Scanner(System.in);
     rad = scan.nextInt();
+    scan.close();
   }
   void showData() {
     System.out.println("Area: "+area);

@@ -14,6 +14,7 @@ class DivisorClass {
     System.out.println("Enter a num: ");
     Scanner scan = new Scanner(System.in);
     num = scan.nextInt();
+    scan.close();
   }
 }
 

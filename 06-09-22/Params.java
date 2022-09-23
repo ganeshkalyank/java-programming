@@ -20,5 +20,6 @@ class Params {
     // b=scan.nextInt();
     // circum = rect.compute(l,b);
     System.out.println("Circumference: "+rect.compute(scan.nextInt(),scan.nextInt()));
+    scan.close();
   }
 }
