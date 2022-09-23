@@ -19,6 +19,7 @@ class Sigma {
 
     System.out.println("Sum: "+sum);
 
+    scan.close();
   }
 
 }
